@@ -1,0 +1,64 @@
+CRITICAL - 2022-03-28 08:16:33 --> Trying to access array offset on value of type null
+#0 C:\OpenServer\domains\CUP\app\Controllers\StartController.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\OpenServer\domains\CUP\app\Controllers\StartController.php(57): App\Controllers\StartController->getMessages()
+#2 C:\OpenServer\domains\CUP\system\CodeIgniter.php(832): App\Controllers\StartController->index()
+#3 C:\OpenServer\domains\CUP\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 C:\OpenServer\domains\CUP\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\OpenServer\domains\CUP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-28 08:18:02 --> Trying to access array offset on value of type null
+#0 C:\OpenServer\domains\CUP\app\Controllers\StartController.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\OpenServer\domains\CUP\app\Controllers\StartController.php(55): App\Controllers\StartController->getMessages()
+#2 C:\OpenServer\domains\CUP\system\CodeIgniter.php(832): App\Controllers\StartController->index()
+#3 C:\OpenServer\domains\CUP\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 C:\OpenServer\domains\CUP\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\OpenServer\domains\CUP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-28 08:20:10 --> Trying to access array offset on value of type null
+#0 C:\OpenServer\domains\CUP\app\Controllers\StartController.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\OpenServer\domains\CUP\app\Controllers\StartController.php(56): App\Controllers\StartController->getMessages()
+#2 C:\OpenServer\domains\CUP\system\CodeIgniter.php(832): App\Controllers\StartController->index()
+#3 C:\OpenServer\domains\CUP\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 C:\OpenServer\domains\CUP\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\OpenServer\domains\CUP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-28 08:22:17 --> Trying to access array offset on value of type null
+#0 C:\OpenServer\domains\CUP\app\Controllers\StartController.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\OpenServer\domains\CUP\app\Controllers\StartController.php(55): App\Controllers\StartController->getMessages()
+#2 C:\OpenServer\domains\CUP\system\CodeIgniter.php(832): App\Controllers\StartController->index()
+#3 C:\OpenServer\domains\CUP\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 C:\OpenServer\domains\CUP\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\OpenServer\domains\CUP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-28 10:36:17 --> Trying to access array offset on value of type null
+#0 C:\OpenServer\domains\CUP\app\Controllers\StartController.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\OpenServer\domains\CUP\app\Controllers\StartController.php(55): App\Controllers\StartController->getMessages()
+#2 C:\OpenServer\domains\CUP\system\CodeIgniter.php(832): App\Controllers\StartController->index()
+#3 C:\OpenServer\domains\CUP\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 C:\OpenServer\domains\CUP\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\OpenServer\domains\CUP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-28 10:46:15 --> Trying to access array offset on value of type null
+#0 C:\OpenServer\domains\CUP\app\Controllers\CurlController.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\OpenServer\domains\CUP\app\Controllers\StartController.php(14): App\Controllers\CurlController->getMessages()
+#2 C:\OpenServer\domains\CUP\system\CodeIgniter.php(832): App\Controllers\StartController->index()
+#3 C:\OpenServer\domains\CUP\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 C:\OpenServer\domains\CUP\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\OpenServer\domains\CUP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-28 10:48:40 --> Trying to access array offset on value of type null
+#0 C:\OpenServer\domains\CUP\app\Controllers\CurlController.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\OpenServer\domains\CUP\app\Controllers\StartController.php(14): App\Controllers\CurlController->getMessages()
+#2 C:\OpenServer\domains\CUP\system\CodeIgniter.php(832): App\Controllers\StartController->index()
+#3 C:\OpenServer\domains\CUP\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 C:\OpenServer\domains\CUP\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\OpenServer\domains\CUP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-28 10:48:57 --> Trying to access array offset on value of type null
+#0 C:\OpenServer\domains\CUP\app\Controllers\CurlController.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\OpenServer\domains\CUP\app\Controllers\StartController.php(14): App\Controllers\CurlController->getMessages()
+#2 C:\OpenServer\domains\CUP\system\CodeIgniter.php(832): App\Controllers\StartController->index()
+#3 C:\OpenServer\domains\CUP\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 C:\OpenServer\domains\CUP\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 C:\OpenServer\domains\CUP\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
