@@ -21,7 +21,27 @@ $routes->setDefaultController('Home');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
-$routes->setAutoRoute(true);
+$routes->setAutoRoute(false);
+
+$routes->options('api/(:any)', 'Api\BaseApiController::options');
+
+$routes->group('', ['namespace' => 'App\Controllers\View'], function ($routes) {
+    $routes->add('start', 'ChatConsoleController::updateMessages');
+});
+
+$routes->group('cron', ['namespace' => 'App\Controllers'], function ($routes) {
+    $routes->cli('every5seconds', 'CronController::every5seconds');
+    $routes->cli('everyMinute', 'CronController::everyMinute');
+    $routes->cli('everyHour', 'CronController::everyHour');
+    $routes->cli('everyDay', 'CronController::everyDay');
+    $routes->cli('everyMonday12am', 'CronController::everyMonday12am');
+});
+
+$routes->group('api', ['namespace' => 'App\Controllers\Api'], function ($routes) {
+});
+
+$routes->group('console', ['namespace' => 'App\Controllers\Console'], function ($routes) {
+});
 
 /*
  * --------------------------------------------------------------------
