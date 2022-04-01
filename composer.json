@@ -13,7 +13,7 @@
         "ext-json": "*",
         "ext-fileinfo": "*",
       "ext-gd": "*",
-        "sunra/php-simple-html-dom-parser": "^1.5"
+        "voku/simple_html_dom": "^4.8"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",

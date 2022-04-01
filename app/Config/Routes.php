@@ -26,7 +26,8 @@ $routes->setAutoRoute(false);
 $routes->options('api/(:any)', 'Api\BaseApiController::options');
 
 $routes->group('', ['namespace' => 'App\Controllers\View'], function ($routes) {
-    $routes->add('start', 'ChatConsoleController::updateMessages');
+    $routes->add('start', 'HomeViewController::index');
+    $routes->add('test', 'HomeViewController::test');
 });
 
 $routes->group('cron', ['namespace' => 'App\Controllers'], function ($routes) {

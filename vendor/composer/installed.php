@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'b91a655b9636daae5ff8c3502d3974fb8cb5c273',
+    'reference' => '422a30f221815c3e30f8677475f33680d6c835ad',
     'name' => 'codeigniter4/appstarter',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'b91a655b9636daae5ff8c3502d3974fb8cb5c273',
+      'reference' => '422a30f221815c3e30f8677475f33680d6c835ad',
     ),
     'codeigniter4/framework' => 
     array (
@@ -371,14 +371,14 @@
       ),
       'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
     ),
-    'sunra/php-simple-html-dom-parser' => 
+    'symfony/css-selector' => 
     array (
-      'pretty_version' => 'v1.5.2',
-      'version' => '1.5.2.0',
+      'pretty_version' => 'v5.4.3',
+      'version' => '5.4.3.0',
       'aliases' => 
       array (
       ),
-      'reference' => '75b9b1cb64502d8f8c04dc11b5906b969af247c6',
+      'reference' => 'b0a190285cd95cb019237851205b8140ef6e368e',
     ),
     'symfony/deprecation-contracts' => 
     array (
@@ -398,6 +398,15 @@
       ),
       'reference' => '30885182c981ab175d4d034db0f6f469898070ab',
     ),
+    'symfony/polyfill-php80' => 
+    array (
+      'pretty_version' => 'v1.25.0',
+      'version' => '1.25.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4407588e0d3f1f52efb65fbe92babe41f37fe50c',
+    ),
     'theseer/tokenizer' => 
     array (
       'pretty_version' => '1.2.1',
@@ -406,6 +415,15 @@
       array (
       ),
       'reference' => '34a41e998c2183e22995f158c581e7b5e755ab9e',
+    ),
+    'voku/simple_html_dom' => 
+    array (
+      'pretty_version' => '4.8.5',
+      'version' => '4.8.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '77df6b0bd33845f61ec8b07328c463b725bdfced',
     ),
     'webmozart/assert' => 
     array (
